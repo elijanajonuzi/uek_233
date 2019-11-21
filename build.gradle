@@ -35,9 +35,8 @@ sonarqube {
 test {
 	useJUnitPlatform()
 }
-/* gaht bi mir nicht
 docker {
-	name 'elijanajonuzi/appName'
+	name 'elijanajonuzi/plswork'
 	tags 'latest' 
 	dockerfile file('Dockerfile')
 	files war.archiveFile
@@ -46,4 +45,3 @@ docker {
 }
 
 docker.dependsOn bootWar
-*/ 
